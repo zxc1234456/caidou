@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>我的采豆中心</title>
+    <link rel="icon" href="../img/logo16.png">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/caidou.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <script src="../js/jquery-1.11.3.js"></script>
+</head>
+<body>
+    <!-- 公共顶部 -->
+    <header>
+        <div class="w">
+            <h1>
+                <img src="../img/logo.png" alt="logo">
+            </h1>
+            <ul>
+                <li class="active">
+                    <a href="#">我的采豆中心</a>
+                </li>
+                <li>
+                    <a href="#indexget">赚采豆</a>
+                </li>
+                <li>
+                    <a href="#indexusebean">花采豆</a>
+                </li>
+                <li>
+                    <a href="#">常见问题</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- 个人信息 -->
+    <div id="indexmy">
+        <div class="w">
+            <div class="mybase">
+                <img src="../img/loginleft.png" alt="" id="basehead">
+                <h3 id="username">采豆人</h3>
+                <h4>新手上路</h4>
+                <div class="mymessage">
+                    <div class="mybean">
+                        <img src="../img/bean.png" alt="">
+                        <h5>我的采豆</h5>
+                        <h6 id="beannum">45</h6>
+                        <a href="#indexget">
+                            <p>赚采豆</p>
+                        </a>
+                    </div>
+                    <div class="mybean">
+                        <img src="../img/level.png" alt="">
+                        <h5>采豆等级</h5>
+                        <h6 id="beanlevel">1级</h6>
+                        <a href="#indexusebean">
+                            <p>花采豆</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="myget">
+                <div class="banner">
+                    <img src="../img/banner.png" alt="">
+                </div>
+                <div class="monthexist">
+                    <p class="existday">本月累计签到<span id="signday">12天</span></p>
+                    <p class="existbean">获得采豆<span id="signbean">12</span></p>
+                    <div id="signbtn">签到</div>
+                    <div id="beanadd">采豆+1</div>
+                    <div class="signlength">
+                        <div id="showlength"></div>
+                        <div id="day7"></div>
+                        <div id="day14"></div>
+                        <div id="day21"></div>
+                        <div id="day28"></div>
+                        <p>7day</p>
+                        <p>14day</p>
+                        <p>21day</p>
+                        <p>28day</p>
+                    </div>
+                </div>
+            </div>
+            <div class="monthuse">
+                <h3>近三月采豆统计</h3>
+                <p class="monthuse1">新增得豆<span id="newbean">+102</span></p>
+                <p class="monthuse2">消费采豆<span id="beanuse">-20</span></p>
+                <h4 class="wen1">什么是采豆？</h4>
+                <h4 class="wen2">什么是采豆等级？</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- 最近采豆明细 -->
+    <div class="indexuse">
+        <div class="w">
+            <h3>最近采豆明细<span class="wen3">采豆使用常见问题</span></h3>
+            <h4>
+                <span class="timetitle">时间</span>
+                <span class="gettitle">收入/支出</span>
+                <span class="detailtitle">详细说明</span>
+            </h4>
+            <ul>
+                <li>
+                    <span class="timecontent">2019-07-18 18:22:22</span>
+                    <span class="getcontent getgreen">-1</span>
+                    <span class="detailcontent">签到</span>
+                </li>
+                <li>
+                    <span class="timecontent">2019-07-18 18:22:22</span>
+                    <span class="getcontent getred">+1</span>
+                    <span class="detailcontent">签到</span>
+                </li>
+                <li>
+                    <span class="timecontent">2019-07-18 18:22:22</span>
+                    <span class="getcontent">+1</span>
+                    <span class="detailcontent">签到</span>
+                </li>
+            </ul>
+            <h5>查看全部明细></h5>
+        </div>
+    </div>
+
+    <!-- 赚采豆 -->
+    <div id="indexget">
+        <div class="w">
+            <h4>赚采豆</h4>
+            <ul class="getbean">
+                <li>
+                    <a href="#indexmy">
+                        <h5>每日签到</h5>
+                        <h6>连续签到可获得更多京豆</h6>
+                        <p>去签到</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h5>完善信息</h5>
+                        <h6>完善个人信息获得采豆</h6>
+                        <p>去完善</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h5>看教程</h5>
+                        <h6>看教程获得采豆</h6>
+                        <p>马上看</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <h5>申请AAA预评</h5>
+                        <h6>为企业投标保驾护航</h6>
+                        <p>马上申请</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+      <!-- 花采豆 -->
+    <div id="indexusebean">
+        <div class="w">
+            <h4>花采豆</h4>
+            <ul>
+                <li>
+                    <a href="">
+                        <h5>企业AAA信用申报专用优惠券</h5>
+                        <h6>信用申报 为投标保驾护航</h6>
+                        <p>去兑换</p>
+                    </a>
+                </li>
+                <li>
+                    <p>
+                        敬请期待......
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <!-- 常见问题 -->
+    <div class="indexask">
+        <div class="w">
+            <h3>使用采豆常见问题</h3>
+            <ul>
+                <li>
+                    <h4>1.采豆的有效期？</h4>
+                    <p>采豆的有效期最长2年，最短1年，即从获得采豆开始至次年年底，逾期自动作废（如若交易在使用京豆有效期之外发生退款，该部分京豆不予退还）</p>
+                </li>
+                <li>
+                    <h4>2.采豆的有效期？</h4>
+                    <p>采豆的有效期最长2年，最短1年，即从获得采豆开始至次年年底，逾期自动作废（如若交易在使用京豆有效期之外发生退款，该部分京豆不予退还）</p>
+                </li>
+                <li>
+                    <h4>3.采豆的有效期？</h4>
+                    <p>采豆的有效期最长2年，最短1年，即从获得采豆开始至次年年底，逾期自动作废（如若交易在使用京豆有效期之外发生退款，该部分京豆不予退还）</p>
+                </li>
+            </ul>
+            <h5>查看全部明细></h5>
+        </div>
+    </div>
+
+    <!-- 我们的服务 -->
+    <div class="server">
+        <div class="w">
+            <ul>
+                <li>
+                    <h3>新手指导</h3>
+                    <a href="">免费注册</a>
+                    <a href="">投标入门</a>
+                    <a href="">会员服务</a>
+                    <a href="">找回密码</a>
+                    <a href="">招标入门</a>
+                    <a href="">客服中心</a>
+                </li>
+                <li>
+                    <h3>招标服务</h3>
+                    <a href="">招标预告</a>
+                    <a href="">招标公告</a>
+                    <a href="">中标公告</a>
+                    <a href="">中标公示</a>
+                    <a href="">资格预审</a>
+                </li>
+                <li>
+                    <h3>项目服务</h3>
+                    <a href="">项目报告</a>
+                    <a href="">项目核准</a>
+                    <a href="">项目动态</a>
+                    <a href="">项目跟踪</a>
+                    <a href="">VIP项目</a>
+                </li>
+                <li>
+                    <h3>采购服务</h3>
+                    <a href="">发布采购</a>
+                    <a href="">地区采购</a>
+                    <a href="">政府采购</a>
+                    <a href=""></a>
+                    <a href="">企业采购</a>
+                </li>
+            </ul>
+            <div class="serverdesk">
+                <h3>工匠精神铸就投标信息服务专业平台</h3>
+                <div class="erweimabox">
+                    <div class="erweima">
+                        <img src="../img/erweima1.png" alt="erweima1">
+                        <p>采招服务平台</p>
+                    </div>
+                    <div class="erweima">
+                        <img src="../img/erweima2.png" alt="erweima2">
+                        <p>采招圈</p>
+                    </div>
+                </div>
+            </div>
+            <div class="serverphone">
+                <h3>全国资讯热线：400-006-6655</h3>
+                <p>友情链接：</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 公共底部 -->
+    <footer>
+        <div class="w">
+            <h3>联系我们 关于我们</h3>
+            <p>Copyright© 采购与招标网 Rights Reserved 京ICP证070104号 京ICP备 09089782号<span>京公网安备11010802021866</span></p>
+            <p>400-006-6655 转1 ;  售后服务：400-006-6655 转2 ; 发布信息：400-006-6655 转3 ;</p>
+            <p>本站网络实名/通用网址："采购与招标网"</p>
+        </div>
+    </footer>
+</body>
+<script>
+    // 加载时请求用户状态
+    // window.onload=function(){
+    //     $.ajax({
+    //         type: "GET",
+    //         url: "some.php",
+    //         data: {
+
+    //         },
+    //         success: function(data){
+    //             console.log(data)
+    //         }
+    //     });
+    // }
+
+    // 本月累计签到进度条,签到一天，宽度加17px.把天数乘以17px
+    var timer=null,i=0;
+    var signday=26;
+    signday*=17;
+    clearInterval(timer);
+    timer=setInterval(function(){
+        $("#showlength").innerWidth(i+"px");
+        if(i>signday){
+            clearInterval(timer)
+        }
+        if(i>119){
+            $("#day7").css("background","#27aff9")
+        }
+        if(i>238){
+            $("#day14").css("background","#27aff9")
+        }
+        if(i>357){
+            $("#day21").css("background","#27aff9")
+        }
+        if(i>476){
+            $("#day28").css("background","#27aff9")
+        }
+        i+=4;
+    },5)
+
+    // 采豆增加的动画
+    $("#signbtn").click(function(){
+        $("#beanadd").show().addClass("animated rollOut");
+    })
+
+
+    // 获取元素最终生效的css中属性的值
+    function getStyleAttr(obj,attr){
+        if(window.getComputedStyle){
+            return window.getComputedStyle(obj)[attr];
+        }else{
+            return obj.currentStyle[attr];
+        }
+    }
+</script>
+</html>

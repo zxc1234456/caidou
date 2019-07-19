@@ -1,0 +1,798 @@
+html,body{
+    width: 100%;
+    background-color: #f0f2f7;
+}
+
+/******************** 登录样式 ************************/
+.loginbgc{
+    width: 100%;
+    height:100%;
+    background-color: #f0f2f7;
+}
+.loginbox{
+    width: 1200px;
+    overflow:hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.loginbox h1{
+    padding-top: 130px;
+    padding-bottom: 32px;
+}
+.loginbox h1 p{
+   float:right;
+   font-weight: normal;
+   font-size: 18px;
+   padding: 30px 0 20px 30px;
+   color:#0866b5;
+   background: url("../img/loginphone.png") no-repeat 0 30px;
+   background-size: 25px;
+}
+.loginleft{
+    float: left;
+    width: 600px;
+    height: 678px;
+}
+.loginright{
+    float: right;
+    width: 600px;
+    height: 678px;
+    background-color: #fff;
+}
+.loginright h3{
+    text-align: center;
+    font-size: 24px;
+    color:#0866b5;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f5f9fc;
+}
+.loginright h4{
+    text-align: center;
+    font-size: 18px;
+    padding: 35px 0 90px 0;
+    color:#333;
+    font-weight: normal;
+}
+.loginright .saoyisao{
+    width: 100%;
+    height: 320px;
+}
+#erweima{
+    width: 210px;
+    height: 210px;
+    border:1px solid #e6eaed;
+    margin-left: 86px;
+    background-color: #ccc;
+    float: left;
+}
+.loginright img{
+    width: 219px;
+    height: 253px;
+    margin-left: 30px;
+}
+.loginright .loginnotes{
+    overflow:hidden;
+}
+.loginnotes p{
+    float: left;
+    margin-left: 66px;
+    margin-bottom: 42px;
+    padding-left:30px;
+    color: #333;
+    font-size: 18px;
+    background: url("../img/right.png") no-repeat 0 4px;
+    background-size: 22px 17px;
+}
+
+/**************************** 首页采豆中心样式 ************************/
+header{
+    width: 100%;
+    height:80px;
+    background: url("../img/headerbgc.jpg") no-repeat 0 0;
+    background-size:cover;
+}
+header .w{
+    height: 80px;
+}
+header h1{
+    width: 233px;
+    height: 40px;
+    padding-top: 20px;
+    float: left;
+    margin-right: 70px;
+}
+header h1 img{
+    width: 233px;
+    height: 40px;
+}
+header ul{
+    float: left;
+}
+header ul li{
+    padding-left:40px;
+    padding-right: 40px;
+    line-height: 80px;
+    color:#fff;
+    float: left;
+    font-size: 18px;
+}
+header ul .active{
+    font-weight: bold;
+}
+header ul li:hover{
+    font-weight: bold;
+}
+
+#indexmy{
+    padding-top: 20px;
+    width: 100%;
+    height: 340px;
+    margin-bottom: 20px;
+}
+#indexmy .w{
+    overflow:hidden;
+}
+#indexmy .mybase{
+    float: left;
+    background-color: #fff;
+    width: 250px;
+    height: 340px;
+    margin-right: 20px;
+    text-align: center;
+}
+.mybase img{
+    width: 100px;
+    height: 100px;
+    margin-top: 14px;
+}
+.mybase #basehead{
+    border-radius: 50%;
+}
+.mybase h3{
+    font-weight: normal;
+    font-size: 18px;
+    height: 18px;
+    margin-top: 12px;
+    color:#000;
+}
+.mybase h4{
+    font-weight: normal;
+    font-size: 12px;
+    height: 12px;
+    margin-top: 10px;
+    color:#0866b5;
+}
+.mymessage{
+    overflow:hidden;
+}
+.mymessage .mybean{
+    width: 125px;
+    float: left;
+}
+.mymessage .mybean img{
+    width: 40px;
+    height: 36px;
+}
+.mymessage .mybean h5{
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    height: 14px;
+    color:#333;
+}
+.mymessage .mybean h6{
+    font-weight: normal;
+    font-size: 30px;
+    height: 30px;
+    color:#786a30;
+    padding-bottom: 14px;
+}
+.mymessage .mybean p{
+    display:inline-block;
+    width: 84px;
+    height: 30px;
+    border:1px solid #e2dfd0;
+    border-radius: 2px;
+    line-height: 30px;
+    color: #786a30;
+    font-size: 12px;
+}
+.myget{
+    float: left;
+    width: 560px;
+    height: 340px;
+    margin-right: 20px;
+}
+.myget .banner{
+    width: 560px;
+    height: 220px;
+    margin-bottom: 14px;
+}
+.myget .monthexist{
+    width: 560px;
+    height: 106px;
+    background-color: #fff;
+    position: relative;
+}
+.monthexist p{
+    float: left;
+    font-size: 14px;
+    color: #7c7f94;
+    height: 14px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+}
+.monthexist span{
+    padding-left: 14px;
+    color:#786a30;
+}
+.existday{
+    width: 130px;
+    padding-left: 18px;
+}
+.existbean{
+    width: 100px;
+    padding-left: 78px;
+}
+#signbtn{
+    width: 126px;
+    position: absolute;
+    text-align: center;
+    line-height: 33px;
+    background-color: #ffc830;
+    color: #fff;
+    font-size: 14px;
+    right: 20px;
+    top: 8px;
+    border-radius: 3px;
+}
+#beanadd{
+    position: absolute;
+    right: 60px;
+    top: -10px;
+    display:none;
+}
+.signlength{
+    width: 549px;
+    height: 24px;
+    background-color: #e8ecf3;
+    position: absolute;
+    bottom: 26px;
+    left: 5px;
+    border-radius: 24px;
+}
+.signlength #showlength{
+    width: 20px;
+    height: 12px;
+    background-color: #97d4f5;
+    border-radius: 6px;
+    margin-top: 6px;
+    margin-left: 11px;
+}
+#day7{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    position: absolute;
+    left: 124px;
+    top: 3px;
+    background-color: #ddd;
+}
+#day14{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    position: absolute;
+    left: 243px;
+    top: 3px;
+    background-color: #ddd;
+}
+#day21{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    position: absolute;
+    left: 362px;
+    top: 3px;
+    background-color: #ddd;
+}
+#day28{
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    position: absolute;
+    left: 481px;
+    top: 3px;
+    background-color: #ddd;
+}
+.signlength p{
+    padding:0;
+    margin-top: 6px;
+    line-height: 18px;
+    float: left;
+    width: 119px;
+    text-align: center;;
+    color: #333;
+    font-size: 12px
+}
+.signlength p:nth-child(6){
+    margin-left: 71px;
+}
+.monthuse{
+    float: left;
+    width: 250px;
+    height: 340px;
+    background-color: #fff;
+}
+.monthuse h3{
+    background-color: #fff;
+    padding-left: 18px;
+    color: #333;
+    line-height: 60px;
+}
+.monthuse p{
+    line-height: 80px;
+    padding-left: 60px;
+    height: 80px;
+    color:#333;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 18px;
+    border-bottom: 1px dashed #e1e5eb;
+    position: relative;
+}
+.monthuse .monthuse1{
+    background: url("../img/newbean.png") no-repeat 12px center;
+    background-size:35px 32px;
+}
+.monthuse .monthuse2{
+    background: url("../img/usebean.png") no-repeat 12px center;
+    background-size:35px 32px;
+    margin-bottom: 30px;
+}
+.monthuse span{
+    line-height: 80px;
+    font-size: 30px;
+    color:#786a30;
+    position: absolute;
+    right: 12px;
+    top: 0;
+}
+.monthuse h4{
+    font-weight: normal;
+    line-height: 34px;
+    font-size: 14px;
+    padding-left: 60px;
+    color: #333;
+}
+.monthuse .wen1{
+    background: url("../img/wen1.png") no-repeat 30px center;
+    background-size:21px 21px;
+}
+.monthuse .wen2{
+    background: url("../img/wen2.png") no-repeat 30px center;
+    background-size:21px 21px;
+}
+
+.indexuse .w{
+    width:1060px;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+.indexuse h3{
+    line-height: 70px;
+    font-size: 16px;
+    color: #333;
+}
+.indexuse .wen3{
+    float:right;
+    color:#fcb901;
+    font-size:14px;
+    padding-left: 30px;
+    background: url("../img/wen1.png") no-repeat 0 center;
+    background-size:21px 21px;
+}
+.indexuse h4{
+    line-height: 40px;
+    background-color: #f4f5f6;
+    border-radius: 3px;
+    overflow:hidden;
+}
+.indexuse span{
+    font-size: 16px;
+    color:#333;
+}
+.indexuse .timetitle{
+    padding-left: 30px;
+    width:360px;
+    float: left;
+}
+.indexuse .gettitle{
+    width:330px;
+    float: left;
+}
+.indexuse .detailtitle{
+    width:340px;
+    float: left;
+}
+.indexuse ul li{
+    height: 45px;
+    line-height: 45px;
+    border-bottom: 1px solid #f4f5f6;
+    font-size: 14px;
+}
+.indexuse ul .timecontent{
+    padding-left: 30px;
+    width:360px;
+    float: left;
+}
+.indexuse ul .getcontent{
+    padding-left: 20px;
+    width:310px;
+    float: left;
+}
+.indexuse ul .detailcontent{
+    width:340px;
+    float: left;
+}
+.indexuse ul .getred{
+    color:#eb6d35;
+}
+.indexuse ul .getgreen{
+    color:#8db45f;
+}
+.indexuse h5{
+    line-height: 60px;
+    text-align: center;
+    color: #005ea7;
+    font-size: 14px;
+}
+
+#indexget h4{
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    line-height: 64px;
+    font-weight: normal;
+    background: url("../img/line.png") no-repeat center 50px;
+    background-size:73px 2px;
+}
+#indexget .getbean{
+    height: 190px;
+    padding:20px 20px 0 20px;
+    background-color: #fff;
+}
+#indexget ul li{
+    width: 217px;
+    height: 129px;
+    float: left;
+    margin-right: 16px;
+    color:#333;
+    position: relative;
+}
+#indexget ul li:nth-child(1){
+    border:18px solid #fcf5c7;
+    background: url("../img/li1.png") no-repeat 150px 8px;
+    background-size:60px 60px;
+}
+#indexget ul li:nth-child(2){
+    border:18px solid #c7e0fa;
+    background: url("../img/li2.png") no-repeat 150px 8px;
+    background-size:60px 60px;
+}
+#indexget ul li:nth-child(3){
+    border:18px solid #ddf0c7;
+    background: url("../img/li3.png") no-repeat 150px 8px;
+    background-size:60px 60px;
+}
+#indexget ul li:nth-child(4){
+    border:18px solid #c1e1f2;
+    background: url("../img/li4.png") no-repeat 150px 8px;
+    background-size:60px 60px;
+    margin-right: 0;
+}
+#indexget li h5{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 46px;
+    padding-left: 20px;
+}
+#indexget li h6{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+#indexget li p{
+    margin-left: 20px;
+    width: 92px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    border:1px solid #d3dce8;
+    border-radius: 4px;
+}
+
+#indexusebean{
+    margin-bottom: 36px;
+}
+#indexusebean h4{
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    line-height: 64px;
+    font-weight: normal;
+    background: url("../img/line.png") no-repeat center 50px;
+    background-size:73px 2px;
+}
+#indexusebean ul{
+    height: 216px;
+    padding:24px 20px 0 20px;
+    background-color: #fff;
+}
+#indexusebean ul li{
+    float: left;
+    width: 493px;
+    height: 192px;
+}
+#indexusebean ul li:nth-child(1){
+    background: url("../img/use1.png") no-repeat;
+    background-size:493px 192px;
+}
+#indexusebean ul li:nth-child(2){
+    background: url("../img/use2.png") no-repeat;
+    background-size:493px 192px;
+    margin-left: 70px;
+}
+#indexusebean ul li:nth-child(2) p{
+    line-height: 192px;
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+#indexusebean ul li:nth-child(1) h5{
+    font-weight: normal;
+    font-size: 24px;
+    padding-top: 25px;
+    line-height: 52px;
+    padding-left: 40px;
+}
+#indexusebean ul li:nth-child(1) h6{
+    font-weight: normal;
+    font-size: 14px;
+    height: 14px;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+#indexusebean ul li:nth-child(1) p{
+    margin-left: 40px;
+    width: 92px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    border:1px solid #333;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.indexask .w{
+    width:1060px;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+.indexask h3{
+    line-height: 70px;
+    font-size: 16px;
+    color: #333;
+    border-bottom:1px solid #f4f5f6;
+}
+.indexask ul li{
+    color: #333;
+}
+.indexask ul li h4{
+    line-height: 30px;
+    padding-top: 14px;
+    font-size: 14px;
+}
+.indexask ul li p{
+    line-height: 30px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.indexask h5{
+    line-height: 60px;
+    text-align: center;
+    color: #005ea7;
+    font-size: 14px;
+}
+
+.server{
+    background-color: #e2e2e2;
+}
+.server .w{
+    height: 260px;
+    position: relative;
+}
+.server ul{
+    float: left;
+    padding-top: 20px;
+    overflow:hidden;
+}
+.server li{
+    width: 136px;
+    float: left;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.server li h3{
+    font-size: 18px;
+    line-height: 42px;
+    color:#333;
+    border-bottom: 1px solid #d0d0d0;
+}
+.server li a{
+    float: left;
+    width: 68px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    color:#666;
+    text-align: left;
+}
+.server li a:nth-child(2n+1){
+    text-align: right;
+}
+.server .serverdesk{
+    overflow:hidden;
+    float: right;
+    width: 300px;
+}
+.serverdesk h3{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 42px;
+    color:#333;
+    text-align: center;
+}
+.serverdesk .erweimabox{
+    overflow:hidden;
+    width: 300px;
+}
+.serverdesk .erweima{
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+.erweima img{
+    padding-top: 18px;
+}
+.erweima p{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+.serverphone{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+}
+.serverphone h3{
+    color: #666;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+.serverphone p{
+    color: #999;
+    padding-bottom: 16px;
+}
+
+footer{
+    height: 160px;
+    background-color: #c0c0c0;
+}
+footer .w{
+    text-align: center;
+}
+footer h3{
+    padding-top: 30px;
+    color: #333;
+    font-size: 14px;
+    line-height: 32px;
+}
+footer p{
+    color: #666;
+    font-size: 14px;
+    line-height: 32px;
+}
+footer p span{
+    font-weight: bold;
+    padding-left: 30px;
+    color: #333;
+    background: url("../img/flag.png") no-repeat 4px 0px;
+    background-size: 21px 23px;
+}
+
+
+
+/*************** 常见问题样式 ***************/
+.commonask .w{
+    width:1060px;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 40px;
+}
+.commonask h3{
+    line-height: 70px;
+    font-size: 16px;
+    color: #333;
+    border-bottom:1px solid #f4f5f6;
+}
+.commonask ul li{
+    color: #333;
+}
+.commonask ul li:nth-child(1){
+    padding-top: 14px;
+}
+.commonask ul li h4{
+    line-height: 46px;
+    font-size: 14px;
+    background-color: #f1f4fc;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 3px;
+}
+.commonask ul li p{
+    line-height: 64px;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.commonask .askpage{
+    padding:28px 20px;
+    height: 32px;
+}
+.askpage ol{
+    overflow: hidden;
+    border:1px solid #f4f5f6;
+    border-radius: 3px;
+    float: right;
+}
+.askpage ol li{
+    width: 32px;
+    text-align: center;
+    line-height: 32px;
+    float: left;
+    color:#333;
+    border-right: 1px solid #f4f5f6;
+}
+.askpage ol .pageprev,.askpage ol .pagenext{
+    width: 68px;
+}
+.askpage ol .pagenext{
+    border-right: 0;
+}
+.askpage ol .page1{
+    color:#005ea7;
+}
+
+
+
+
+
