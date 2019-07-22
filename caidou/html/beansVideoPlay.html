@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>最近采豆明细</title>
+    <title>看视频 赚采豆</title>
     <link rel="icon" href="../img/logo16.png">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/caidou.css">
     <link rel="stylesheet" href="../css/animate.css">
     <script src="../js/jquery-1.11.3.js"></script>
+    <script src="https://api.html5media.info/1.2.2/html5media.min.js"></script>
 </head>
 <body>
     <!-- 公共顶部 -->
@@ -35,42 +36,40 @@
         </div>
     </header>
 
-    <!-- 最近采豆明细 -->
-    <div class="indexuse">
-        <div class="w">
-            <h3>最近采豆明细<span class="wen3">采豆使用常见问题</span></h3>
-            <h4>
-                <span class="timetitle">时间</span>
-                <span class="gettitle">收入/支出</span>
-                <span class="detailtitle">详细说明</span>
-            </h4>
-            <ul>
-                <li>
-                    <span class="timecontent">2019-07-18 18:22:22</span>
-                    <span class="getcontent getgreen">-1</span>
-                    <span class="detailcontent">签到</span>
-                </li>
-                <li>
-                    <span class="timecontent">2019-07-18 18:22:22</span>
-                    <span class="getcontent getred">+1</span>
-                    <span class="detailcontent">签到</span>
-                </li>
-                <li>
-                    <span class="timecontent">2019-07-18 18:22:22</span>
-                    <span class="getcontent">+1</span>
-                    <span class="detailcontent">签到</span>
-                </li>
-            </ul>
-            <div class="askpage">
-                <ol>
-                    <li class="pageprev"><上一页</li>
-                    <li class="page1">1</li>
-                    <li class="page1">2</li>
-                    <li class="page1">3</li>
-                    <li class="page1">4</li>
-                    <li class="page1">5</li>
-                    <li class="pagenext">下一页></li>
-                </ol>
+    <!-- 看视频赚采豆 -->
+    <div class="videodetail">
+        <div class="w cl">
+            <div class="videodetailleft">
+                <h3>最近采豆明细<span class="wen3">采豆使用常见问题</span></h3>
+                <h4>视频：<span>采购与招标网高级搜索使用指南</span></h4>
+                <div class="video-container">
+                    <video controls poster="" id="video" style="width: 694px; height: 404px;">
+                        <source src="https://vd2.bdstatic.com/mda-iffjhup78n4gu8bg/logo/sc/mda-iffjhup78n4gu8bg.mp4?auth_key=1563764788-0-0-95a4ec4b8f4f8189f4b5f979eee72549&bcevod_channel=searchbox_feed&pd=bjh&abtest=all"> 
+                    </video>
+                </div>
+                <p class="video-msg">
+                    <span id="getbean">10</span>
+                    <span id="playtime">123</span>
+                    <span id="islook">已看过</span>
+                </p>
+                <div class="video-conetentbox">
+                    <h5>视频内容</h5>
+                    <p id="video-conetent">
+                        看视频可获得10个采豆，并且可以了解高级搜索的使用方法，帮助您更快更准确的找到您需要的投标项目。
+                    </p>
+                </div>
+            </div>
+            <div class="videodetailright">
+                <a href="">
+                    <div class="videoimgbox" id="ad1">
+                        <img src="../img/ad1.png" alt="ad1">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="videoimgbox">
+                        <img src="../img/ad2.png" alt="ad2">
+                    </div>
+                </a>
             </div>
         </div>
     </div>

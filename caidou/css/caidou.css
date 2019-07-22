@@ -3,6 +3,152 @@ html,body{
     background-color: #f0f2f7;
 }
 
+/******************** 公共样式 ************************/
+header{
+    width: 100%;
+    height:80px;
+    background: url("../img/headerbgc.jpg") no-repeat 0 0;
+    background-size:cover;
+}
+header .w{
+    height: 80px;
+}
+header h1{
+    width: 233px;
+    height: 40px;
+    padding-top: 20px;
+    float: left;
+    margin-right: 70px;
+}
+header h1 img{
+    width: 233px;
+    height: 40px;
+}
+header ul{
+    float: left;
+}
+header ul li{
+    padding-left:40px;
+    padding-right: 40px;
+    line-height: 80px;
+    color:#fff;
+    float: left;
+    font-size: 18px;
+}
+header ul .active{
+    font-weight: bold;
+}
+header ul li:hover{
+    font-weight: bold;
+}
+.server{
+    background-color: #e2e2e2;
+}
+.server .w{
+    height: 260px;
+    position: relative;
+}
+.server ul{
+    float: left;
+    padding-top: 20px;
+    overflow:hidden;
+}
+.server li{
+    width: 136px;
+    float: left;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.server li h3{
+    font-size: 18px;
+    line-height: 42px;
+    color:#333;
+    border-bottom: 1px solid #d0d0d0;
+}
+.server li a{
+    float: left;
+    width: 68px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    color:#666;
+    text-align: left;
+}
+.server li a:nth-child(2n+1){
+    text-align: right;
+}
+.server .serverdesk{
+    overflow:hidden;
+    float: right;
+    width: 300px;
+}
+.serverdesk h3{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 42px;
+    color:#333;
+    text-align: center;
+}
+.serverdesk .erweimabox{
+    overflow:hidden;
+    width: 300px;
+}
+.serverdesk .erweima{
+    float: left;
+    width: 150px;
+    text-align: center;
+}
+.erweima img{
+    padding-top: 18px;
+}
+.erweima p{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+}
+.serverphone{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 20px;
+}
+.serverphone h3{
+    color: #666;
+    font-weight: normal;
+    padding-bottom: 30px;
+}
+.serverphone p{
+    color: #999;
+    padding-bottom: 16px;
+}
+
+footer{
+    height: 160px;
+    background-color: #c0c0c0;
+}
+footer .w{
+    text-align: center;
+}
+footer h3{
+    padding-top: 30px;
+    color: #333;
+    font-size: 14px;
+    line-height: 32px;
+}
+footer p{
+    color: #666;
+    font-size: 14px;
+    line-height: 32px;
+}
+footer p span{
+    font-weight: bold;
+    padding-left: 30px;
+    color: #333;
+    background: url("../img/flag.png") no-repeat 4px 0px;
+    background-size: 21px 23px;
+}
+
 /******************** 登录样式 ************************/
 .loginbgc{
     width: 100%;
@@ -16,7 +162,7 @@ html,body{
     margin-right: auto;
 }
 .loginbox h1{
-    padding-top: 130px;
+    padding-top: 32px;
     padding-bottom: 32px;
 }
 .loginbox h1 p{
@@ -86,44 +232,6 @@ html,body{
 }
 
 /**************************** 首页采豆中心样式 ************************/
-header{
-    width: 100%;
-    height:80px;
-    background: url("../img/headerbgc.jpg") no-repeat 0 0;
-    background-size:cover;
-}
-header .w{
-    height: 80px;
-}
-header h1{
-    width: 233px;
-    height: 40px;
-    padding-top: 20px;
-    float: left;
-    margin-right: 70px;
-}
-header h1 img{
-    width: 233px;
-    height: 40px;
-}
-header ul{
-    float: left;
-}
-header ul li{
-    padding-left:40px;
-    padding-right: 40px;
-    line-height: 80px;
-    color:#fff;
-    float: left;
-    font-size: 18px;
-}
-header ul .active{
-    font-weight: bold;
-}
-header ul li:hover{
-    font-weight: bold;
-}
-
 #indexmy{
     padding-top: 20px;
     width: 100%;
@@ -377,6 +485,7 @@ header ul li:hover{
 }
 
 .indexuse .w{
+    margin-top: 20px;
     width:1060px;
     background-color: #fff;
     padding-left: 20px;
@@ -617,123 +726,15 @@ header ul li:hover{
     font-size: 14px;
 }
 
-.server{
-    background-color: #e2e2e2;
-}
-.server .w{
-    height: 260px;
-    position: relative;
-}
-.server ul{
-    float: left;
-    padding-top: 20px;
-    overflow:hidden;
-}
-.server li{
-    width: 136px;
-    float: left;
-    margin-left: 18px;
-    margin-right: 18px;
-}
-.server li h3{
-    font-size: 18px;
-    line-height: 42px;
-    color:#333;
-    border-bottom: 1px solid #d0d0d0;
-}
-.server li a{
-    float: left;
-    width: 68px;
-    height: 30px;
-    font-size: 14px;
-    line-height: 30px;
-    color:#666;
-    text-align: left;
-}
-.server li a:nth-child(2n+1){
-    text-align: right;
-}
-.server .serverdesk{
-    overflow:hidden;
-    float: right;
-    width: 300px;
-}
-.serverdesk h3{
-    padding-top: 20px;
-    font-size: 18px;
-    line-height: 42px;
-    color:#333;
-    text-align: center;
-}
-.serverdesk .erweimabox{
-    overflow:hidden;
-    width: 300px;
-}
-.serverdesk .erweima{
-    float: left;
-    width: 150px;
-    text-align: center;
-}
-.erweima img{
-    padding-top: 18px;
-}
-.erweima p{
-    padding-top: 10px;
-    font-weight: bold;
-    font-size: 14px;
-    color: #333;
-}
-.serverphone{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding-left: 20px;
-}
-.serverphone h3{
-    color: #666;
-    font-weight: normal;
-    padding-bottom: 30px;
-}
-.serverphone p{
-    color: #999;
-    padding-bottom: 16px;
-}
-
-footer{
-    height: 160px;
-    background-color: #c0c0c0;
-}
-footer .w{
-    text-align: center;
-}
-footer h3{
-    padding-top: 30px;
-    color: #333;
-    font-size: 14px;
-    line-height: 32px;
-}
-footer p{
-    color: #666;
-    font-size: 14px;
-    line-height: 32px;
-}
-footer p span{
-    font-weight: bold;
-    padding-left: 30px;
-    color: #333;
-    background: url("../img/flag.png") no-repeat 4px 0px;
-    background-size: 21px 23px;
-}
-
-
-
 /*************** 常见问题样式 ***************/
 .commonask .w{
+    margin-top:20px;
     width:1060px;
     background-color: #fff;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 40px;
+
 }
 .commonask h3{
     line-height: 70px;
@@ -764,7 +765,7 @@ footer p span{
     padding-left: 20px;
     padding-right: 20px;
 }
-.commonask .askpage{
+.askpage{
     padding:28px 20px;
     height: 32px;
 }
@@ -792,6 +793,108 @@ footer p span{
     color:#005ea7;
 }
 
+/****************** 视频详情 *******************/
+.videodetail .w{
+    width:1100px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.videodetailleft{
+    float: left;
+    width: 694px;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 28px;
+}
+.videodetailleft h3{
+    line-height: 70px;
+    font-size: 16px;
+    color: #333;
+}
+.videodetailleft .wen3{
+    float:right;
+    color:#fcb901;
+    font-size:14px;
+    padding-left: 30px;
+    background: url("../img/wen1.png") no-repeat 0 center;
+    background-size:21px 21px;
+}
+.videodetailleft h4{
+    line-height: 18px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color:#666;
+}
+.video-container{
+    width: 694px;
+    height: 404px;
+    background-color: #000;
+}
+.video-msg{
+    color:#786a30;
+    font-size: 12px;
+    line-height: 40px;
+}
+.video-msg #getbean{
+    padding-right: 10px;
+    padding-left: 24px;
+    background: url("../img/caidou.png") no-repeat 0 center;
+    background-size:17px 19px;
+}
+.video-msg #playtime{
+    padding-right: 10px;
+    padding-left: 24px;
+    background: url("../img/playtime.png") no-repeat 0 center;
+    background-size:17px 19px;
+}
+.video-msg #islook{
+    padding-right: 10px;
+    padding-left: 24px;
+    background: url("../img/islook.png") no-repeat 0 center;
+    background-size:17px 19px;
+}
+.video-conetentbox{
+    height: 138px;
+}
+.video-conetentbox h5{
+    line-height: 25px;
+    color: #333;
+    font-size: 14px;
+    font-weight: normal;
+    border-bottom:1px solid #51a8eb;
+}
+.video-conetentbox #video-conetent{
+    color:#7c7f94;
+    font-size: 12px;
+    line-height: 36px;
+    -webkit-line-clamp:3;
+    display: -webkit-box;
+   -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.videodetailright{
+    float: left;
+    width: 338px;
+    height: 680px;
+}
+.videodetailright .videoimgbox{
+    width: 338px;
+    height: 332px;
+    overflow:hidden;
+}
+.videodetailright img{
+    width: 338px;
+    height: 332px;
+    transition: all 1.5s;
+}
+.videodetailright #ad1{
+    margin-bottom:16px;
+}
+.videodetailright img:hover{
+    transform: scale(1.08,1.08)
+}
 
 
 
